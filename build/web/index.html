@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Qual dia?</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    </head>
+    <body>
+    <center>
+        <h1>Qual o dia da semana?</h1>
+        <h5>Digite a data para descobrir!</h5>
+        <form method="POST" action="dia_da_semana" class="form-group">
+            <table>
+                <thead>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <input class="form-control" type="text" name="day" placeholder="dia" id="dayId" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input class="form-control" type="text" name="month" placeholder="mês" id="monthId" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input class="form-control" type="text" name="year" placeholder="ano" id="yearId" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <center>
+                                <input class="btn btn-primary" type="submit" value="Verificar" />                        
+                            </center>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </center>
+    </body>
+</html>
